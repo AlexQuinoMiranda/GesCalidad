@@ -124,3 +124,49 @@ footer {
     font-size: 14px;
     color: #555;
 }
+
+
+
+/* Formulario de Reservas */
+.formulario-reserva {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.formulario-reserva .campo {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-reserva label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #8B0000;
+}
+
+.formulario-reserva input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario-reserva button {
+    background-color: #8B0000;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.formulario-reserva button:hover {
+    background-color: #a30000;
+}
