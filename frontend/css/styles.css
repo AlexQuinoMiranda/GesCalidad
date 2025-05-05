@@ -303,3 +303,46 @@ body {
     color: white;
   }
   
+
+/* Sección Promociones */
+.promociones {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.promociones h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.promo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.promo-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.promo-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.promo-card h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.promo-card p {
+    color: #666;
+}
