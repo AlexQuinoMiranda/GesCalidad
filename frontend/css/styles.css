@@ -239,3 +239,8 @@ body {
     padding: 0;
 }
 
+.estrellas {
+    margin-top: 10px;
+    color: #FFD700; /* color dorado de estrellas */
+    font-size: 20px;
+}
