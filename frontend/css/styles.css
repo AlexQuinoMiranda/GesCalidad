@@ -72,7 +72,7 @@ footer {
     margin-top: 40px;
 }
 
-/* Responsive: para pantallas pequeñas */
+/* Responsive*/
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
@@ -81,4 +81,46 @@ footer {
     nav ul li {
         margin: 10px 0;
     }
+}
+
+
+/*platos */
+.contenedor-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.plato {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.plato:hover {
+    transform: translateY(-5px);
+}
+
+.plato img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.plato h3 {
+    color: #8B0000;
+    margin: 15px 0 10px;
+}
+
+.plato p {
+    padding: 0 15px 20px;
+    font-size: 14px;
+    color: #555;
 }
